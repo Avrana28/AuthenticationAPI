@@ -1,0 +1,6 @@
+ktor:
+  deployment:
+    port: 5055
+  application:
+    modules:
+      - com.auth.MainKt.module
